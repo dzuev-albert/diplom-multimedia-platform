@@ -1,0 +1,28 @@
+# Multimedia Processor — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Optional system packages needed alongside these Python libs:
+#   - ffmpeg  (for pydub + moviepy audio/video codec support)
+#     macOS : brew install ffmpeg
+#     Ubuntu: sudo apt install ffmpeg
+#     Windows: https://ffmpeg.org/download.html  (add to PATH)
+
+# ── Core GUI ──────────────────────────────────────────────────────────────────
+# Tkinter ships with Python on Windows/macOS.
+# Linux: sudo apt install python3-tk
+
+# ── Image processing ──────────────────────────────────────────────────────────
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# ── Numeric / plotting ────────────────────────────────────────────────────────
+numpy>=1.24.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+
+# ── Audio ─────────────────────────────────────────────────────────────────────
+pydub>=0.25.1
+sounddevice>=0.4.6
+
+# ── Video ─────────────────────────────────────────────────────────────────────
+moviepy>=1.0.3
